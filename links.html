@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kenny Gallardo Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Added Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* simple local styling for the icons */
+        .social-list {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin: 0.5rem 0 1.5rem 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .social-list a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 1.25rem;
+            display: inline-flex;
+            align-items: center;
+            gap: .5rem;
+        }
+
+        .social-list i {
+            font-size: 1.6rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation Menu -->
+        <nav id="nav-list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="links.html">Links</a></li>
+            </ul>
+        </nav>
+        <button type="button" onclick="toggleMenu(event)">=</button>
+    </header>
+
+    <h1>Social Links</h1>
+    <!-- New social icon links -->
+    <section aria-label="Social links">
+        <ul class="social-list">
+            <li>
+                <a href="https://github.com/myKalling" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github" aria-hidden="true"></i><span class="sr-only">GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/kenny-gallardo-7b4b62228/" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://x.com/myKalling" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/mykalling/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/myKalling" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <a href="https://www.mykallingmarketing.com/" target="_blank" rel="noopener noreferrer">myKalling LLC Website</a>
+    </section>
+   
+    <footer>
+        <p>Copyright 2025</p>
+    </footer>
+
+    <!-- include your script for the menu and form handling -->
+    <script src="script.js"></script>
+</body>
+
+</html>

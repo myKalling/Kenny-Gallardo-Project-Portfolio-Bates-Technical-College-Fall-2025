@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kenny Gallardo Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navigation Menu -->
+        <nav id="nav-list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="links.html">Links</a></li>
+            </ul>
+        </nav>
+        <button type="button" onclick="toggleMenu(event)">=</button>
+    </header>
+    <br></br>
+    <img src="assets/img/myKalling=LLC-Contact-Me.jpg" alt="Contact Me Image" width="250" height="250">
+    <br></br>
+    <form id="contactForm">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="" required><br />
+
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="" required><br />
+
+        <label for="email">Email:</label><br />
+        <input type="text" id="email" name="email" value="" required><br />
+
+        <label for="phone">Phone:</label><br />
+        <input type="text" id="phone" name="phone" value="" required><br />
+
+        <label for="message">Message:</label><br /> 
+        <textarea rows="5" cols="30" id="message" name="message"></textarea><br />
+        <br />
+        <input type="submit" value="Smooosh to Submit">
+    </form> 
+    <footer>
+        <p>Copyright 2025</p>
+    </footer>
+    <br></br>
+    <script src="script.js"></script>
+</body>
+</html>
